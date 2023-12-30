@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menu-Container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+   
+    
+}
+
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+   
+   
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+
+.Header-Container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Signup{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.Second-Text{
+    font-size: 16px;
+    color: white;
+}
+
+.Sign-Up{
+    padding: 5px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 18px
+}
+
+.Lucid{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+    height: 300px;
+    max-width: 1000px;
+}
