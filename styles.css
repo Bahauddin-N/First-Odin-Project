@@ -47,27 +47,106 @@
 }
 
 .Signup{
-    color: white;
+    color: #dbd4c5;
     font-size: 30px;
     font-weight: bolder;
 }
 .Second-Text{
     font-size: 16px;
-    color: white;
+    color: #dbd4c5;
 }
 
 .Sign-Up{
     padding: 5px;
-    color: white;
-    background-color: #3882f6;
+    color: #dbd4c5;
+    background-color: black;
     border-radius: 18px
 }
 
 .Lucid{
-    flex-direction: row;
     display: flex;
     justify-content: flex-start;
     width: 900px;
     height: 300px;
     max-width: 1000px;
+    margin-left: 100px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: cursive;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Sub-List{
+    display: flex;
+    justify-content: center;
+    margin-top:  40px;
+    text-align: center;
+    font-family:'sans', serif;
+    
+}
+
+.Grid-Items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Design, .Transmission, .Body{
+    width: 316px;
+    height: 300px;
+    margin: 5px 20px 0px 20px;
+    border-radius: 10%;
+    border: 10px solid #dbd4c5;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.image-container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
+
+figcaption{
+    color: #dbd4c5;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Extra{
+    display: flex;
+    justify-content:flex-end;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 22px;
+    background-color: #1f2937;
+    padding: 9%;
+    color: #dbd4c5;
+    
+}
+
+
+span{
+    display: flex;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 200px;
+    color: white;
+    
 }
